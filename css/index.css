@@ -69,6 +69,12 @@ main section{
 text-align: center;
 }
 
+img{
+    height: 300px;
+    object-position: top;
+    object-fit: cover;
+}
+
 article{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
