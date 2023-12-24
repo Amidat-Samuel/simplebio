@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    background-color: #fff6ee;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+header{
+    background-size: cover;
+    margin: 0;
+    text-align: center;
+}
+
+header p{
+    margin-left: 55px;
+    color: gray;
+    font-size: 20px;
+}
+
+h1{
+    color: #0b1e4b;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 35px;
+    
+}
+
+h2 {
+    color: #0b1e4b;
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+footer p{
+    color: gray;
+    font-size: 30px;
+    padding: 40px 10px;
+}
+
+section p{
+    color: gray;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.subsection1{
+    padding-bottom: 20px;
+}
+
+main{
+margin: 30px 50px;
+
+}
+
+.personal_details img{
+    width: 465px;
+    /* border: 1px solid gray; */
+    border-radius: 15px; 
+}
+
+
+main section{
+    border: 1px solid gray;
+    border-radius: 15px; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 30px 60px;
+}
+
+.image{
+text-align: center;
+}
+
+article{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    height: 400px;
+}
+
+footer{
+    padding: 50px;
+}
